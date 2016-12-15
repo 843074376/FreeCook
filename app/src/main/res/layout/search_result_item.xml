@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/search_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/book_name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入需要搜索的书目"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_toRightOf="@id/book_name"
+            android:layout_marginTop="8dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src = "@mipmap/add"
+            />
+        <View
+            android:layout_below="@id/picture"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#1E000000"
+            android:layout_marginTop="8dp"
+            />
+    </RelativeLayout>
+</LinearLayout>

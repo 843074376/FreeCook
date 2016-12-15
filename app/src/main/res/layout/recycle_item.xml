@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#CD853F">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+        <TableRow android:background="#000000"
+            android:layout_margin="2dip">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/_id"
+                android:background="#CD853F"
+                android:layout_margin="2dip"
+                android:visibility="gone"
+                android:text="1"/>
+            <ImageView
+                android:background="#CD853F"
+                android:layout_margin="2dip"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/item_img"/>
+
+            <TextView
+                android:background="#CD853F"
+                android:layout_margin="2dip"
+                android:layout_width="40dp"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_height="match_parent"
+                android:text="晴朗"
+                android:id="@+id/menu"
+                android:textSize="25dp"
+                android:layout_weight="0.30" />
+
+            <TextView
+                android:background="#CD853F"
+                android:layout_margin="2dip"
+                android:layout_width="60dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_height="match_parent"
+                android:text="url"
+                android:id="@+id/url"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:background="#CD853F"
+                android:layout_margin="2dip"
+                android:layout_width="60dp"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:id="@+id/page"
+                android:textSize="25dp"/>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

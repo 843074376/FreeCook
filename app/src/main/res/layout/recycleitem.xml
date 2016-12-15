@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    >
+    <TextView
+        android:id="@+id/recyclerData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:text="11月11日"/>
+    <TextView
+        android:id="@+id/recyclerDescription"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="晴转多云"/>
+    <TextView
+        android:id="@+id/recyclerTemp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="13°C/16°C"/>
+
+</LinearLayout>

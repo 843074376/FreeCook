@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image_2002"
+        android:layout_alignBottom="@id/image_2002"
+        android:layout_margin="8dp"
+        android:text = "Widget"
+        android:textColor="@color/brown"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id = "@+id/image_2002"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/eat2"
+        android:layout_gravity = "left"
+        />
+
+</RelativeLayout>
